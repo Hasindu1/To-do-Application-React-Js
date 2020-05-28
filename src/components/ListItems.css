@@ -1,0 +1,51 @@
+.trash-icon{
+    color: #0069D9;
+    position:absolute;
+    left:305px;
+    cursor: pointer;
+}
+.check-icon{
+    color: #0069D9;
+    position:absolute;
+    left:270px;
+    cursor: pointer;
+}
+.list-item-text{
+    background-color: transparent;
+    border:0;
+
+
+
+
+}
+.list-item-text:focus{
+    outline: none;
+}
+
+.completed-check-icon{
+
+    color: #07BC0C;
+     position:absolute;
+     left:270px;
+     cursor: pointer;
+ }
+.completed-list-item-text{
+
+    position:absolute;
+    bottom:4.5px;
+    font-weight: normal;
+    text-decoration: line-through;
+
+}
+/*h5{*/
+/*    text-decoration: line-through;*/
+/*}*/
+.cross-task{
+    text-decoration: line-through;
+}
+.completed-items-decoration{
+   display:inline;
+   position: relative;
+   bottom: 4px;
+   right:24px;
+}
